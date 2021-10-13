@@ -1,0 +1,4 @@
+# These must be installed before building general_ocr
+numpy
+pyclipper
+torch>=1.1
