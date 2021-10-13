@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #ifndef ONNXRUNTIME_REGISTER_H
 #define ONNXRUNTIME_REGISTER_H
 #include <onnxruntime_c_api.h>

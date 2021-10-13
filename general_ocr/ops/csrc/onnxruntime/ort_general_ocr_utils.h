@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #ifndef ORT_general_ocr_UTILS_H
 #define ORT_general_ocr_UTILS_H
 #include <onnxruntime_cxx_api.h>

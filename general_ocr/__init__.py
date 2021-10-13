@@ -17,6 +17,8 @@ from .ops import *
 from .parallel import *
 from .runner import *
 
+from .version import __version__
+
 # other packages
 import warnings
 from packaging.version import parse

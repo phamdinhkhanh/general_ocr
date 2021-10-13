@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved.
+// Copyright (c) GeneralOCR. All rights reserved.
 #include <iostream>
 
 #include "pytorch_cpp_helper.hpp"

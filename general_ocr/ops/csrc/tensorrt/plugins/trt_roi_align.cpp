@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #include "trt_roi_align.hpp"
 
 #include <assert.h>

@@ -44,12 +44,13 @@ Supported Algorithms:
 ```shell
 # Activate your conda environment
 conda activate gen_ocr
-
-python general_ocr/utils/ocr.py demo/demo_text_ocr.jpg --print-result --imshow --det PANet_IC15 --recog SEG
+python general_ocr/utils/ocr.py demo/demo_text_ocr_2.jpg --print-result --imshow --det TextSnake --recog SEG
 ```
 `--det` values and `--recog` values are supplied in **table 1** and **table 2**.
 
---TODO Result demo
+The result as below:
+
+![demo image 1](../demo/resources/demo_text_ocr2_pred.png)
 
 # 2. Training
 

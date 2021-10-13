@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #ifndef CONTOUR_EXPAND_PYTORCH_H
 #define CONTOUR_EXPAND_PYTORCH_H
 #include <torch/extension.h>

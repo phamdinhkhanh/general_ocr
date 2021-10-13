@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #include "pytorch_cpp_helper.hpp"
 
 #ifdef GENERAL_OCR_WITH_CUDA

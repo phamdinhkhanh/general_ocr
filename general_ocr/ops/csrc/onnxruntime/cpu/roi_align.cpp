@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #include "roi_align.h"
 
 #include "../ort_general_ocr_utils.h"

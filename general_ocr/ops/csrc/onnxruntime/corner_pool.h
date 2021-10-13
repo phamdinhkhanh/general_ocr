@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #ifndef ONNXRUNTIME_CORNER_POOL_H
 #define ONNXRUNTIME_CORNER_POOL_H
 

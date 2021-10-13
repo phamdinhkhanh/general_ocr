@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #ifndef NMS_PYTORCH_H
 #define NMS_PYTORCH_H
 #include <torch/extension.h>

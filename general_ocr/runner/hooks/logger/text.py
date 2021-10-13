@@ -8,7 +8,7 @@ import torch.distributed as dist
 
 from ..hook import HOOKS
 from .base import LoggerHook
-import general_ocr.fileio
+import general_ocr.fileio as fileio
 
 @HOOKS.register_module()
 class TextLoggerHook(LoggerHook):

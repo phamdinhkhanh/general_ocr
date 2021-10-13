@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #ifndef ONNXRUNTIME_NMS_H
 #define ONNXRUNTIME_NMS_H
 

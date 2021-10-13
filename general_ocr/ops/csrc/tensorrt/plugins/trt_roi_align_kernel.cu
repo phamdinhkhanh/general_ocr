@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #include "common_cuda_helper.hpp"
 #include "roi_align_cuda_kernel.cuh"
 

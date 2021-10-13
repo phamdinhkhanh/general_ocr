@@ -1,4 +1,4 @@
-// Copyright (c) OpenMMLab. All rights reserved
+// Copyright (c) GeneralOCR. All rights reserved
 #ifndef ONNXRUNTIME_MODULATED_DEFORM_CONV_H
 #define ONNXRUNTIME_MODULATED_DEFORM_CONV_H
 
