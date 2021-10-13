@@ -28,14 +28,14 @@ Supported Algorithms:
 
 </details>
 
-**Table 1**: Text detection algorithms, papers and parameters configuration in SDK.
+**Table 1**: Text detection algorithms, papers and arguments configuration in package.
 
 ### Model text recognition
 
 <details open>
 <summary>Text Recognition</summary>
 
-| Algorithm      | Paper | Python argument --recog | 
+| Algorithm      | Paper | Python argument (--recog) | 
 | :---        |    :----:   |---:|
 |- [x] [CRNN](configs/textrecog/crnn/README.md) (TPAMI'2016)|https://arxiv.org/abs/1507.05717| CRNN, CRNN_TPS |
 |- [x] [NRTR](configs/textrecog/nrtr/README.md) (ICDAR'2019)|https://arxiv.org/abs/1806.00926| NRTR_1/8-1/4, NRTR_1/16-1/8|
@@ -46,7 +46,7 @@ Supported Algorithms:
 
 </details>
 
-**Table 2**: Text recognition algorithms, papers and parameters configuration in SDK.
+**Table 2**: Text recognition algorithms, papers and arguments configuration in package.
 
 ## Inference
 
@@ -55,7 +55,7 @@ Supported Algorithms:
 conda activate gen_ocr
 python general_ocr/utils/ocr.py demo/demo_text_ocr_2.jpg --print-result --imshow --det TextSnake --recog SEG
 ```
-`--det` values and `--recog` values are supplied in **table 1** and **table 2**.
+`--det` and `--recog` argument values are supplied in **table 1** and **table 2**.
 
 The result as below:
 
