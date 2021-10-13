@@ -32,9 +32,9 @@ following the [official Pytorch instructions](https://pytorch.org/)
 conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 ```
 
-::: Note
+```Note
 Make sure that your CUDA compilation and CUDA runtime is matched version in order to avoid unexpected error. To check your CUDA runtime version in termial `nvcc --version`.
-:::
+```
 
 3. Clone general_ocr repository
 
@@ -77,6 +77,9 @@ Full setup script is there:
 # create and activate conda enviroment
 conda create -n gen_ocr python=3.7 -y
 conda activate gen_ocr
+
+# install pytorch and torchvision
+conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 
 # clone general_ocr
 git clone https://github.com/phamdinhkhanh/general_ocr.git
