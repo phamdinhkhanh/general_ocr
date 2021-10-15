@@ -1,0 +1,14 @@
+onnxruntime-linux-x64-1.8.1.tgz
+onnxruntime-linux-x64-1.8.1/
+/misc.py
+/env.py
+/config.py
+/train.py
+demo/MMOCR_Tutorial.ipynb
+cuda*
+.eggs/
+general_ocr.egg-info
+*__pycache__*
+build/
+seg/*.log
+seg/*.log.json
