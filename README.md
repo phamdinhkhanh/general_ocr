@@ -124,6 +124,17 @@ Now you completed training of TextSnake and get the checkpoint `textsnake/lastes
 python tools/test.py configs/textdet/textsnake/textsnake_r50_fpn_unet_1200e_ctw1500.py textsnake/latest.pth --eval hmean-iou
 ```
 
+
+# Model detail
+
+* **Design workflow model**: Each type of object such as `dataset, encoder, decoder, backbone, layer, model, loss` is registered according to group and scope context according to idea of [facebook-detectron](https://detectron2.readthedocs.io/en/v0.2.1/tutorials/write-models.html).
+
+* **Layers**: Layers architecture and pretrained-models is mainly refered from [open-mmcv](https://github.com/open-mmlab/mmcv).
+
+# Next plane
+
+* **Implements**: Paddle-OCR, TR-OCR, TessaractOCR.
+
 # Citation
 
 If you find this project is useful in your reasearch, kindly consider cite:
@@ -136,3 +147,4 @@ If you find this project is useful in your reasearch, kindly consider cite:
     year={2021}
 }
 ```
+
