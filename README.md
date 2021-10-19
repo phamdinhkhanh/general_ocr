@@ -111,7 +111,7 @@ data = dict(
 Your data_root folder `data/ctw1500/` have to be right. Afterward, train your model:
 
 ```shell
-python tools/train.py configs/textdet/textsnake/textsnake_r50_fpn_unet_1200e_ctw1500.py --work-dir textsnake
+python ./tools/train.py configs/textdet/textsnake/textsnake_r50_fpn_unet_1200e_ctw1500.py --work-dir textsnake
 ```
 
 To study other configuration parameters on [training](docs/training.md).
@@ -126,7 +126,7 @@ python tools/test.py configs/textdet/textsnake/textsnake_r50_fpn_unet_1200e_ctw1
 
 # Model details
 
-* **Design pattern**: Each type of object such as `dataset, encoder, decoder, backbone, layer, model, loss` is registered according to group and scope context according to idea of [facebook-detectron](https://detectron2.readthedocs.io/en/v0.2.1/tutorials/write-models.html).
+* **Design pattern**: Each type of object such as `dataset, encoder, decoder, backbone, layer, model, loss` is registered according to group and scope context coming from [facebook-detectron](https://detectron2.readthedocs.io/en/v0.2.1/tutorials/write-models.html).
 
 * **Layers**: Layers architecture and pretrained-models is mainly refered from [open-mmcv](https://github.com/open-mmlab/mmcv).
 
